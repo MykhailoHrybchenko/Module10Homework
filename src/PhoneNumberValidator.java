@@ -10,7 +10,7 @@ public class PhoneNumberValidator {
     private static final String RELATIVE_PATH = "Resources/PhoneNumbers";
 
     String patternString1 = "([0-9]{3}[-]){2}[0-9]{4}";
-    String patternString2 = "[(][0-9]{3}[)][ ][0-9]{3}[- ][0-9]{4}";
+    String patternString2 = "^((\\(\\d{3}\\))|\\d{3})[ ]\\d{3}[-]\\d{4}$";
 
 
     public void phoneNumberValidator() {
