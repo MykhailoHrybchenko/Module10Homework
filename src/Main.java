@@ -1,9 +1,10 @@
 import java.util.Arrays;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
-        PhoneNumberValidator validatorTest = new PhoneNumberValidator();
-        validatorTest.phoneNumberValidator();
+        JsonUsersFile jsonUsersFile = new JsonUsersFile();
+        jsonUsersFile.formatToJson();
     }
 }
